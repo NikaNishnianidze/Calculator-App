@@ -172,56 +172,56 @@ main {
   background-color: hsl(0, 0%, 90%);
 }
 
-.slider-2 {
+.theme-1 .slider {
   border: 1px solid hsla(0, 5%, 81%, 1);
   background-color: hsla(0, 5%, 81%, 1);
 }
 
-.display-2 {
+.theme-1 .display {
   border: 1px solid #eeeeee;
   background-color: #eeeeee;
 }
 
-.h1-2 {
+.theme-1 h1 {
   color: #36362c;
 }
 
-.h2-2 {
+.theme-1 h2 {
   color: #36362c;
 }
 
-.slider-2 {
+.theme-1 .slider {
   background-color: #d2cdcd;
 }
 
-.p-section2 {
+.theme-1 .p-section {
   color: #36362c;
 }
 
-.display2 {
+.theme-1 .display {
   background-color: hsl(0, 0%, 93%);
   color: #36362c;
   border: 1px solid hsl(0, 0%, 93%);
 }
 
-.keys-container2 {
+.theme-1 .keys-container {
   background-color: hsl(0, 5%, 81%);
   border: 1px solid hsl(0, 5%, 81%);
 }
 
-.delete2 {
+.theme-1 .delete {
   background-color: #378187;
   box-shadow: 0px 5px #378187;
   border: 1px solid #378187;
 }
 
-.reset2 {
+.theme-1 .reset {
   background-color: #378187;
   box-shadow: 0px 5px #378187;
   border: 1px solid #378187;
 }
 
-.calculate2 {
+.theme-1 .calculate {
   background-color: #c85402;
   border: 1px oslid #c85402;
   box-shadow: 0px 5px #c85402;
@@ -231,58 +231,58 @@ main {
   background-color: hsl(268, 75%, 9%);
 }
 
-.display3 {
+.theme-2 .display {
   background-color: #1e0936;
   border: 1px solid #1e0936;
   color: #ffe53d;
 }
 
-.h1-3 {
+.theme-2 h1 {
   color: #ffe53d;
 }
 
-.h2-3 {
+.theme-2 h2 {
   color: #ffe53d;
 }
 
-.slider-3 {
+.theme-2 .slider {
   background-color: #1e0936;
   border: 1px solid #1e0936;
 }
 
-.slider-3::-webkit-slider-thumb {
+.theme-2 .slider::-webkit-slider-thumb {
   background-color: #00ded0;
 }
 
-.p-section3 {
+.theme-2 .p-section {
   color: #ffe53d;
 }
 
-.keys-container3 {
+.theme-2 .keys-container {
   background-color: #1e0936;
   border: 1px solid #1e0936;
 }
 
-.delete3 {
+.theme-2 .delete {
   background-color: #56077c;
   border: 1px solid #56077c;
   box-shadow: 0px 5px #be15f4;
 }
 
-.reset3 {
+.theme-2 .reset {
   background-color: #56077c;
   border: 1px solid #56077c;
   box-shadow: 0px 5px #be15f4;
 }
 
-.calculate3 {
+.theme-2 .calculate {
   background-color: #00ded0;
   border: 1px solid #00ded0;
   box-shadow: 0px 5px #6cf9f1;
   color: #1a2327;
 }
 
-.origin3 {
+.theme-2 .origin {
   background-color: #331c4d;
 }
 
