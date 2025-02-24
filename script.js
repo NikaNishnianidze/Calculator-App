@@ -6,11 +6,9 @@ slider.addEventListener("change", () => {
   let value = slider.value;
 
   if (value === "2") {
-    body.classList.add("background-2");
     body.classList.add("theme-1");
   } else {
     body.classList.remove("theme-1");
-    body.classList.remove("background-2");
   }
 
   if (value === "3") {
