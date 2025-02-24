@@ -21,7 +21,27 @@ slider.addEventListener("change", () => {
 });
 
 function appendToDisplay(input) {
+  let ch = display.value;
+  if (
+    ch.length > 0 &&
+    isOperator(ch.charAt(ch.length - 1)) &&
+    isOperator(input)
+  ) {
+    display.value = "Error";
+    return;
+  }
+
   display.value += input;
+}
+
+function isOperator(character) {
+  return (
+    character === "*" ||
+    character === "/" ||
+    character === "-" ||
+    character === "+" ||
+    character === "."
+  );
 }
 
 function clearDisplay() {
