@@ -27,7 +27,6 @@ function appendToDisplay(input) {
     isOperator(ch.charAt(ch.length - 1)) &&
     isOperator(input)
   ) {
-    display.value = "Error";
     return;
   }
 
